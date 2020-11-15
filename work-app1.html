@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Time Spent At Work</title>
+</head>
+<style>
+      body {
+          background-color:#1167b1;
+          margin:0;
+          padding:0;
+          color:#d0efff
+          }
+      h1,h2 {
+        text-align: center;
+      }
+      .input-field {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          }
+
+      label, button {
+          color: #fb8c00;
+          font-family: sans-serif,helvetica,Arial;
+          font-size: 1.5em;
+          }
+       input {
+          color: #232F3E;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 20px;
+          }
+        .input-field {
+          display: flex;
+          border:1px solid black;
+          flex-direction: column;
+          justify-content: space-around;
+          margin:1em;
+          padding:1em;
+          }
+
+</style>
+    <body>
+      <h1>Let Us Calculate How Much Time You Spend At Work</h1>
+      <h2>Fill out the fields below to see your results</h2>
+        <form>
+          <div class="input-field">
+            <label>First Name:</label>
+            <input type="text" id="fName">
+            <label>Last Name :</label>
+            <input type="text" id="lName">
+            <label>Age :</label>
+            <input type="text" id="myAge">
+            <label>How many hours do you work in a day? :</label>
+            <input type="text" id="hrs">
+            <label>How many days do you work in a week? :</label>
+            <input type="text" id="days">
+            <hr>
+            <!--need button to calculate vacation days-->
+
+            <!-- set button onClick method to call function we defined passing input values as parameters -->
+            <button type="button">Call API</button>
+          </div>
+        </form>
+    </body>
+</html>
