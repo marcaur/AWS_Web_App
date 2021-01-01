@@ -1,1 +1,2 @@
-# AWS_Web_App
+# How Much Time Have You Spent At Work?
+## This app was created and is hosted on AWS. It follows a serverless architecture pattern by using the following services: AWS Lambda, DynamoDB, and API Gateway
