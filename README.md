@@ -1,4 +1,9 @@
 # How Much Time Have You Spent At Work?
+## I have created this app to help myself and others be aware of how much time we spend exclusively at work. After calculating the numbers myself, I was shocked to see how much of the year I have spent at work. 
+## I want to update this app to include a sign up feature where users can keep track of their hours spent at their current job
+
+
+
 ## This app was created on the AWS platform. It follows a serverless architecture pattern by using the following services: 
 
 ### AWS Lambda (Compute)
